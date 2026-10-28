@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite the archived edition."
+type: dataset
+title: "Ireland Clinical Trials Performance Index"
+version: "edition 1 (2026-q4)"
+date-released: 2026-10-28
+doi: 10.5281/zenodo.23725680
+url: "https://priyalifescience.com/trials-index"
+repository-code: "https://github.com/priyalifescience/ireland-trials-index"
+license: CC-BY-4.0
+authors:
+  - family-names: Prasannan
+    given-names: Sreepriya
+    affiliation: Priya Life Science
+keywords:
+  - clinical trials
+  - Ireland
+  - performance index
+  - ClinicalTrials.gov
+  - open data

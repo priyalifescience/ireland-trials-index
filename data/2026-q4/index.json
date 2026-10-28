@@ -1,0 +1,1372 @@
+{
+ "edition": "2026-q4",
+ "title": "Ireland Clinical Trials Performance Index",
+ "published": "2026-10-28",
+ "fetchedAt": {
+  "Ireland": "2026-10-27T10:46:27.600Z",
+  "Denmark": "2026-10-27T10:46:37.181Z",
+  "Finland": "2026-10-27T10:46:40.199Z",
+  "Norway": "2026-10-27T10:46:44.221Z",
+  "Sweden": "2026-10-27T10:46:51.303Z",
+  "Belgium": "2026-10-27T10:47:04.480Z",
+  "Netherlands": "2026-10-27T10:47:16.166Z",
+  "Austria": "2026-10-27T10:47:22.106Z",
+  "Switzerland": "2026-10-27T10:47:29.156Z",
+  "Portugal": "2026-10-27T10:47:33.639Z",
+  "Czechia": "2026-10-27T10:47:40.268Z"
+ },
+ "source": "ClinicalTrials.gov API v2 (interventional studies with a site in the country, start date 2014 or later); population: Eurostat tps00001, 1 January 2025",
+ "windows": {
+  "starts": [
+   2021,
+   2025
+  ],
+  "completion": [
+   2016,
+   2025
+  ],
+  "results": [
+   2016,
+   2024
+  ]
+ },
+ "population": {
+  "Ireland": 5440278,
+  "Denmark": 5992734,
+  "Finland": 5635971,
+  "Norway": 5594340,
+  "Sweden": 10587710,
+  "Belgium": 11883495,
+  "Netherlands": 18044027,
+  "Austria": 9197213,
+  "Switzerland": 9051029,
+  "Portugal": 11387222,
+  "Czechia": 10909500
+ },
+ "codes": {
+  "Ireland": "IE",
+  "Denmark": "DK",
+  "Finland": "FI",
+  "Norway": "NO",
+  "Sweden": "SE",
+  "Belgium": "BE",
+  "Netherlands": "NL",
+  "Austria": "AT",
+  "Switzerland": "CH",
+  "Portugal": "PT",
+  "Czechia": "CZ"
+ },
+ "indicators": [
+  {
+   "key": "startsPm",
+   "label": "Trials started per million people",
+   "unit": "per million a year",
+   "dir": 1
+  },
+  {
+   "key": "industryPm",
+   "label": "Industry-sponsored trials per million people",
+   "unit": "per million a year",
+   "dir": 1
+  },
+  {
+   "key": "earlyShare",
+   "label": "Early-phase share of new trials",
+   "unit": "% of starts",
+   "dir": 1
+  },
+  {
+   "key": "prospectiveShare",
+   "label": "Registered before the first patient",
+   "unit": "% of starts",
+   "dir": 1
+  },
+  {
+   "key": "completedShare",
+   "label": "Completed rather than stopped early",
+   "unit": "% of closed trials",
+   "dir": 1
+  },
+  {
+   "key": "resultsAnyShare",
+   "label": "Results posted at all",
+   "unit": "% of completed phase 2–4",
+   "dir": 1
+  },
+  {
+   "key": "results12Share",
+   "label": "Results posted within 12 months",
+   "unit": "% of completed phase 2–4",
+   "dir": 1
+  },
+  {
+   "key": "unknownShare",
+   "label": "Records gone stale",
+   "unit": "% of trials since 2014",
+   "dir": -1
+  },
+  {
+   "key": "medianMonthsIndustryLate",
+   "label": "Median length, industry phase 2–4",
+   "unit": "months, start to primary completion",
+   "dir": 0
+  }
+ ],
+ "countries": {
+  "Ireland": {
+   "starts": 579,
+   "startsPm": 21.3,
+   "industryStarts": 339,
+   "industryPm": 12.5,
+   "industryShare": 58.5,
+   "earlyStarts": 35,
+   "earlyShare": 6,
+   "prospective": 478,
+   "prospectiveShare": 82.6,
+   "closed": 726,
+   "completedShare": 86.9,
+   "resultsBase": 287,
+   "results12": 26,
+   "results12Share": 9.1,
+   "resultsAnyShare": 80.1,
+   "startedSince2014": 1379,
+   "unknownShare": 10.7,
+   "nationalOnlyShare": 38.3,
+   "medianMonthsIndustryLate": 33.7,
+   "byYear": {
+    "2014": {
+     "n": 80,
+     "industry": 39
+    },
+    "2015": {
+     "n": 124,
+     "industry": 64
+    },
+    "2016": {
+     "n": 105,
+     "industry": 57
+    },
+    "2017": {
+     "n": 125,
+     "industry": 80
+    },
+    "2018": {
+     "n": 112,
+     "industry": 73
+    },
+    "2019": {
+     "n": 117,
+     "industry": 70
+    },
+    "2020": {
+     "n": 99,
+     "industry": 56
+    },
+    "2021": {
+     "n": 135,
+     "industry": 84
+    },
+    "2022": {
+     "n": 108,
+     "industry": 58
+    },
+    "2023": {
+     "n": 110,
+     "industry": 64
+    },
+    "2024": {
+     "n": 107,
+     "industry": 58
+    },
+    "2025": {
+     "n": 119,
+     "industry": 75
+    }
+   }
+  },
+  "Denmark": {
+   "starts": 2476,
+   "startsPm": 82.6,
+   "industryStarts": 824,
+   "industryPm": 27.5,
+   "industryShare": 33.3,
+   "earlyStarts": 166,
+   "earlyShare": 6.7,
+   "prospective": 2121,
+   "prospectiveShare": 85.7,
+   "closed": 3398,
+   "completedShare": 88.6,
+   "resultsBase": 1076,
+   "results12": 78,
+   "results12Share": 7.2,
+   "resultsAnyShare": 60.4,
+   "startedSince2014": 6061,
+   "unknownShare": 12.1,
+   "nationalOnlyShare": 63.2,
+   "medianMonthsIndustryLate": 31.1,
+   "byYear": {
+    "2014": {
+     "n": 422,
+     "industry": 137
+    },
+    "2015": {
+     "n": 462,
+     "industry": 164
+    },
+    "2016": {
+     "n": 421,
+     "industry": 137
+    },
+    "2017": {
+     "n": 521,
+     "industry": 194
+    },
+    "2018": {
+     "n": 527,
+     "industry": 173
+    },
+    "2019": {
+     "n": 520,
+     "industry": 182
+    },
+    "2020": {
+     "n": 526,
+     "industry": 171
+    },
+    "2021": {
+     "n": 597,
+     "industry": 206
+    },
+    "2022": {
+     "n": 485,
+     "industry": 145
+    },
+    "2023": {
+     "n": 473,
+     "industry": 140
+    },
+    "2024": {
+     "n": 507,
+     "industry": 171
+    },
+    "2025": {
+     "n": 414,
+     "industry": 162
+    }
+   }
+  },
+  "Finland": {
+   "starts": 696,
+   "startsPm": 24.7,
+   "industryStarts": 367,
+   "industryPm": 13,
+   "industryShare": 52.7,
+   "earlyStarts": 42,
+   "earlyShare": 6,
+   "prospective": 577,
+   "prospectiveShare": 82.9,
+   "closed": 1013,
+   "completedShare": 84.8,
+   "resultsBase": 468,
+   "results12": 43,
+   "results12Share": 9.2,
+   "resultsAnyShare": 77.1,
+   "startedSince2014": 1872,
+   "unknownShare": 11.2,
+   "nationalOnlyShare": 44,
+   "medianMonthsIndustryLate": 28.8,
+   "byYear": {
+    "2014": {
+     "n": 144,
+     "industry": 84
+    },
+    "2015": {
+     "n": 167,
+     "industry": 95
+    },
+    "2016": {
+     "n": 159,
+     "industry": 80
+    },
+    "2017": {
+     "n": 187,
+     "industry": 89
+    },
+    "2018": {
+     "n": 187,
+     "industry": 96
+    },
+    "2019": {
+     "n": 150,
+     "industry": 83
+    },
+    "2020": {
+     "n": 142,
+     "industry": 66
+    },
+    "2021": {
+     "n": 168,
+     "industry": 93
+    },
+    "2022": {
+     "n": 158,
+     "industry": 70
+    },
+    "2023": {
+     "n": 136,
+     "industry": 78
+    },
+    "2024": {
+     "n": 122,
+     "industry": 63
+    },
+    "2025": {
+     "n": 112,
+     "industry": 63
+    }
+   }
+  },
+  "Norway": {
+   "starts": 1012,
+   "startsPm": 36.2,
+   "industryStarts": 335,
+   "industryPm": 12,
+   "industryShare": 33.1,
+   "earlyStarts": 59,
+   "earlyShare": 5.8,
+   "prospective": 862,
+   "prospectiveShare": 85.2,
+   "closed": 1355,
+   "completedShare": 87.7,
+   "resultsBase": 419,
+   "results12": 25,
+   "results12Share": 6,
+   "resultsAnyShare": 63,
+   "startedSince2014": 2511,
+   "unknownShare": 9.7,
+   "nationalOnlyShare": 57.7,
+   "medianMonthsIndustryLate": 33.6,
+   "byYear": {
+    "2014": {
+     "n": 205,
+     "industry": 66
+    },
+    "2015": {
+     "n": 193,
+     "industry": 61
+    },
+    "2016": {
+     "n": 199,
+     "industry": 55
+    },
+    "2017": {
+     "n": 225,
+     "industry": 63
+    },
+    "2018": {
+     "n": 211,
+     "industry": 56
+    },
+    "2019": {
+     "n": 211,
+     "industry": 58
+    },
+    "2020": {
+     "n": 196,
+     "industry": 56
+    },
+    "2021": {
+     "n": 254,
+     "industry": 86
+    },
+    "2022": {
+     "n": 209,
+     "industry": 68
+    },
+    "2023": {
+     "n": 185,
+     "industry": 53
+    },
+    "2024": {
+     "n": 195,
+     "industry": 67
+    },
+    "2025": {
+     "n": 169,
+     "industry": 61
+    }
+   }
+  },
+  "Sweden": {
+   "starts": 1827,
+   "startsPm": 34.5,
+   "industryStarts": 723,
+   "industryPm": 13.7,
+   "industryShare": 39.6,
+   "earlyStarts": 121,
+   "earlyShare": 6.6,
+   "prospective": 1504,
+   "prospectiveShare": 82.3,
+   "closed": 2379,
+   "completedShare": 87.5,
+   "resultsBase": 797,
+   "results12": 72,
+   "results12Share": 9,
+   "resultsAnyShare": 73.1,
+   "startedSince2014": 4387,
+   "unknownShare": 9.4,
+   "nationalOnlyShare": 60.5,
+   "medianMonthsIndustryLate": 31.1,
+   "byYear": {
+    "2014": {
+     "n": 326,
+     "industry": 146
+    },
+    "2015": {
+     "n": 341,
+     "industry": 165
+    },
+    "2016": {
+     "n": 318,
+     "industry": 134
+    },
+    "2017": {
+     "n": 368,
+     "industry": 166
+    },
+    "2018": {
+     "n": 377,
+     "industry": 155
+    },
+    "2019": {
+     "n": 372,
+     "industry": 148
+    },
+    "2020": {
+     "n": 330,
+     "industry": 129
+    },
+    "2021": {
+     "n": 419,
+     "industry": 174
+    },
+    "2022": {
+     "n": 405,
+     "industry": 145
+    },
+    "2023": {
+     "n": 348,
+     "industry": 141
+    },
+    "2024": {
+     "n": 333,
+     "industry": 136
+    },
+    "2025": {
+     "n": 322,
+     "industry": 127
+    }
+   }
+  },
+  "Belgium": {
+   "starts": 3026,
+   "startsPm": 50.9,
+   "industryStarts": 1773,
+   "industryPm": 29.8,
+   "industryShare": 58.6,
+   "earlyStarts": 376,
+   "earlyShare": 12.4,
+   "prospective": 2520,
+   "prospectiveShare": 83.3,
+   "closed": 4419,
+   "completedShare": 82,
+   "resultsBase": 1667,
+   "results12": 155,
+   "results12Share": 9.3,
+   "resultsAnyShare": 76.4,
+   "startedSince2014": 7637,
+   "unknownShare": 9.4,
+   "nationalOnlyShare": 41.2,
+   "medianMonthsIndustryLate": 31.4,
+   "byYear": {
+    "2014": {
+     "n": 570,
+     "industry": 356
+    },
+    "2015": {
+     "n": 612,
+     "industry": 410
+    },
+    "2016": {
+     "n": 531,
+     "industry": 331
+    },
+    "2017": {
+     "n": 674,
+     "industry": 395
+    },
+    "2018": {
+     "n": 708,
+     "industry": 402
+    },
+    "2019": {
+     "n": 697,
+     "industry": 399
+    },
+    "2020": {
+     "n": 677,
+     "industry": 368
+    },
+    "2021": {
+     "n": 740,
+     "industry": 420
+    },
+    "2022": {
+     "n": 625,
+     "industry": 369
+    },
+    "2023": {
+     "n": 585,
+     "industry": 324
+    },
+    "2024": {
+     "n": 572,
+     "industry": 351
+    },
+    "2025": {
+     "n": 504,
+     "industry": 309
+    }
+   }
+  },
+  "Netherlands": {
+   "starts": 3138,
+   "startsPm": 34.8,
+   "industryStarts": 1569,
+   "industryPm": 17.4,
+   "industryShare": 50,
+   "earlyStarts": 438,
+   "earlyShare": 14,
+   "prospective": 2648,
+   "prospectiveShare": 84.4,
+   "closed": 3922,
+   "completedShare": 82.1,
+   "resultsBase": 1460,
+   "results12": 118,
+   "results12Share": 8.1,
+   "resultsAnyShare": 70.5,
+   "startedSince2014": 7226,
+   "unknownShare": 10.9,
+   "nationalOnlyShare": 47.9,
+   "medianMonthsIndustryLate": 31.2,
+   "byYear": {
+    "2014": {
+     "n": 568,
+     "industry": 297
+    },
+    "2015": {
+     "n": 551,
+     "industry": 322
+    },
+    "2016": {
+     "n": 533,
+     "industry": 290
+    },
+    "2017": {
+     "n": 550,
+     "industry": 310
+    },
+    "2018": {
+     "n": 569,
+     "industry": 320
+    },
+    "2019": {
+     "n": 555,
+     "industry": 315
+    },
+    "2020": {
+     "n": 559,
+     "industry": 317
+    },
+    "2021": {
+     "n": 677,
+     "industry": 386
+    },
+    "2022": {
+     "n": 695,
+     "industry": 324
+    },
+    "2023": {
+     "n": 649,
+     "industry": 282
+    },
+    "2024": {
+     "n": 610,
+     "industry": 292
+    },
+    "2025": {
+     "n": 507,
+     "industry": 285
+    }
+   }
+  },
+  "Austria": {
+   "starts": 1263,
+   "startsPm": 27.5,
+   "industryStarts": 779,
+   "industryPm": 16.9,
+   "industryShare": 61.7,
+   "earlyStarts": 90,
+   "earlyShare": 7.1,
+   "prospective": 1103,
+   "prospectiveShare": 87.3,
+   "closed": 1787,
+   "completedShare": 81.8,
+   "resultsBase": 821,
+   "results12": 76,
+   "results12Share": 9.3,
+   "resultsAnyShare": 79,
+   "startedSince2014": 3220,
+   "unknownShare": 9.2,
+   "nationalOnlyShare": 29.7,
+   "medianMonthsIndustryLate": 32.5,
+   "byYear": {
+    "2014": {
+     "n": 241,
+     "industry": 148
+    },
+    "2015": {
+     "n": 252,
+     "industry": 171
+    },
+    "2016": {
+     "n": 227,
+     "industry": 151
+    },
+    "2017": {
+     "n": 300,
+     "industry": 184
+    },
+    "2018": {
+     "n": 277,
+     "industry": 174
+    },
+    "2019": {
+     "n": 288,
+     "industry": 189
+    },
+    "2020": {
+     "n": 296,
+     "industry": 179
+    },
+    "2021": {
+     "n": 325,
+     "industry": 178
+    },
+    "2022": {
+     "n": 241,
+     "industry": 156
+    },
+    "2023": {
+     "n": 242,
+     "industry": 154
+    },
+    "2024": {
+     "n": 236,
+     "industry": 147
+    },
+    "2025": {
+     "n": 219,
+     "industry": 144
+    }
+   }
+  },
+  "Switzerland": {
+   "starts": 1867,
+   "startsPm": 41.3,
+   "industryStarts": 673,
+   "industryPm": 14.9,
+   "industryShare": 36,
+   "earlyStarts": 155,
+   "earlyShare": 8.3,
+   "prospective": 1641,
+   "prospectiveShare": 87.9,
+   "closed": 2702,
+   "completedShare": 83.9,
+   "resultsBase": 698,
+   "results12": 51,
+   "results12Share": 7.3,
+   "resultsAnyShare": 60.7,
+   "startedSince2014": 4627,
+   "unknownShare": 9.2,
+   "nationalOnlyShare": 59.1,
+   "medianMonthsIndustryLate": 33.6,
+   "byYear": {
+    "2014": {
+     "n": 312,
+     "industry": 126
+    },
+    "2015": {
+     "n": 345,
+     "industry": 138
+    },
+    "2016": {
+     "n": 358,
+     "industry": 137
+    },
+    "2017": {
+     "n": 364,
+     "industry": 135
+    },
+    "2018": {
+     "n": 454,
+     "industry": 156
+    },
+    "2019": {
+     "n": 380,
+     "industry": 134
+    },
+    "2020": {
+     "n": 395,
+     "industry": 140
+    },
+    "2021": {
+     "n": 441,
+     "industry": 155
+    },
+    "2022": {
+     "n": 386,
+     "industry": 134
+    },
+    "2023": {
+     "n": 390,
+     "industry": 148
+    },
+    "2024": {
+     "n": 316,
+     "industry": 117
+    },
+    "2025": {
+     "n": 334,
+     "industry": 119
+    }
+   }
+  },
+  "Portugal": {
+   "starts": 1101,
+   "startsPm": 19.3,
+   "industryStarts": 674,
+   "industryPm": 11.8,
+   "industryShare": 61.2,
+   "earlyStarts": 65,
+   "earlyShare": 5.9,
+   "prospective": 830,
+   "prospectiveShare": 75.4,
+   "closed": 1142,
+   "completedShare": 83.2,
+   "resultsBase": 441,
+   "results12": 51,
+   "results12Share": 11.6,
+   "resultsAnyShare": 85.5,
+   "startedSince2014": 2177,
+   "unknownShare": 10,
+   "nationalOnlyShare": 37,
+   "medianMonthsIndustryLate": 32.9,
+   "byYear": {
+    "2014": {
+     "n": 107,
+     "industry": 73
+    },
+    "2015": {
+     "n": 119,
+     "industry": 83
+    },
+    "2016": {
+     "n": 110,
+     "industry": 81
+    },
+    "2017": {
+     "n": 147,
+     "industry": 90
+    },
+    "2018": {
+     "n": 170,
+     "industry": 100
+    },
+    "2019": {
+     "n": 169,
+     "industry": 98
+    },
+    "2020": {
+     "n": 166,
+     "industry": 103
+    },
+    "2021": {
+     "n": 214,
+     "industry": 136
+    },
+    "2022": {
+     "n": 228,
+     "industry": 146
+    },
+    "2023": {
+     "n": 221,
+     "industry": 128
+    },
+    "2024": {
+     "n": 220,
+     "industry": 132
+    },
+    "2025": {
+     "n": 218,
+     "industry": 132
+    }
+   }
+  },
+  "Czechia": {
+   "starts": 1587,
+   "startsPm": 29.1,
+   "industryStarts": 1236,
+   "industryPm": 22.7,
+   "industryShare": 77.9,
+   "earlyStarts": 67,
+   "earlyShare": 4.2,
+   "prospective": 1359,
+   "prospectiveShare": 85.6,
+   "closed": 2203,
+   "completedShare": 82.8,
+   "resultsBase": 1303,
+   "results12": 126,
+   "results12Share": 9.7,
+   "resultsAnyShare": 85,
+   "startedSince2014": 3673,
+   "unknownShare": 5.5,
+   "nationalOnlyShare": 21.4,
+   "medianMonthsIndustryLate": 29.1,
+   "byYear": {
+    "2014": {
+     "n": 271,
+     "industry": 244
+    },
+    "2015": {
+     "n": 288,
+     "industry": 246
+    },
+    "2016": {
+     "n": 274,
+     "industry": 232
+    },
+    "2017": {
+     "n": 314,
+     "industry": 270
+    },
+    "2018": {
+     "n": 300,
+     "industry": 256
+    },
+    "2019": {
+     "n": 307,
+     "industry": 253
+    },
+    "2020": {
+     "n": 285,
+     "industry": 234
+    },
+    "2021": {
+     "n": 362,
+     "industry": 275
+    },
+    "2022": {
+     "n": 329,
+     "industry": 238
+    },
+    "2023": {
+     "n": 298,
+     "industry": 230
+    },
+    "2024": {
+     "n": 288,
+     "industry": 238
+    },
+    "2025": {
+     "n": 310,
+     "industry": 255
+    }
+   }
+  }
+ },
+ "ranks": {
+  "startsPm": {
+   "order": [
+    "Denmark",
+    "Belgium",
+    "Switzerland",
+    "Norway",
+    "Netherlands",
+    "Sweden",
+    "Czechia",
+    "Austria",
+    "Finland",
+    "Ireland",
+    "Portugal"
+   ],
+   "ie": 10,
+   "of": 11,
+   "tiedWith": [],
+   "median": 34.7
+  },
+  "industryPm": {
+   "order": [
+    "Belgium",
+    "Denmark",
+    "Czechia",
+    "Netherlands",
+    "Austria",
+    "Switzerland",
+    "Sweden",
+    "Finland",
+    "Ireland",
+    "Norway",
+    "Portugal"
+   ],
+   "ie": 9,
+   "of": 11,
+   "tiedWith": [],
+   "median": 15.9
+  },
+  "earlyShare": {
+   "order": [
+    "Netherlands",
+    "Belgium",
+    "Switzerland",
+    "Austria",
+    "Denmark",
+    "Sweden",
+    "Ireland",
+    "Finland",
+    "Portugal",
+    "Norway",
+    "Czechia"
+   ],
+   "ie": 7,
+   "of": 11,
+   "tiedWith": [
+    "Finland"
+   ],
+   "median": 6.7
+  },
+  "prospectiveShare": {
+   "order": [
+    "Switzerland",
+    "Austria",
+    "Denmark",
+    "Czechia",
+    "Norway",
+    "Netherlands",
+    "Belgium",
+    "Finland",
+    "Ireland",
+    "Sweden",
+    "Portugal"
+   ],
+   "ie": 9,
+   "of": 11,
+   "tiedWith": [],
+   "median": 84.8
+  },
+  "completedShare": {
+   "order": [
+    "Denmark",
+    "Norway",
+    "Sweden",
+    "Ireland",
+    "Finland",
+    "Switzerland",
+    "Portugal",
+    "Czechia",
+    "Netherlands",
+    "Belgium",
+    "Austria"
+   ],
+   "ie": 4,
+   "of": 11,
+   "tiedWith": [],
+   "median": 83.6
+  },
+  "resultsAnyShare": {
+   "order": [
+    "Portugal",
+    "Czechia",
+    "Ireland",
+    "Austria",
+    "Finland",
+    "Belgium",
+    "Sweden",
+    "Netherlands",
+    "Norway",
+    "Switzerland",
+    "Denmark"
+   ],
+   "ie": 3,
+   "of": 11,
+   "tiedWith": [],
+   "median": 74.8
+  },
+  "results12Share": {
+   "order": [
+    "Portugal",
+    "Czechia",
+    "Belgium",
+    "Austria",
+    "Finland",
+    "Ireland",
+    "Sweden",
+    "Netherlands",
+    "Switzerland",
+    "Denmark",
+    "Norway"
+   ],
+   "ie": 6,
+   "of": 11,
+   "tiedWith": [],
+   "median": 9.1
+  },
+  "unknownShare": {
+   "order": [
+    "Czechia",
+    "Austria",
+    "Switzerland",
+    "Sweden",
+    "Belgium",
+    "Norway",
+    "Portugal",
+    "Ireland",
+    "Netherlands",
+    "Finland",
+    "Denmark"
+   ],
+   "ie": 8,
+   "of": 11,
+   "tiedWith": [],
+   "median": 9.6
+  }
+ },
+ "trend": [
+  {
+   "year": 2014,
+   "ie": 14.7,
+   "peerMedian": 31.1
+  },
+  {
+   "year": 2015,
+   "ie": 22.8,
+   "peerMedian": 31.4
+  },
+  {
+   "year": 2016,
+   "ie": 19.3,
+   "peerMedian": 29.8
+  },
+  {
+   "year": 2017,
+   "ie": 23,
+   "peerMedian": 34
+  },
+  {
+   "year": 2018,
+   "ie": 20.6,
+   "peerMedian": 34.4
+  },
+  {
+   "year": 2019,
+   "ie": 21.5,
+   "peerMedian": 33.2
+  },
+  {
+   "year": 2020,
+   "ie": 18.2,
+   "peerMedian": 31.7
+  },
+  {
+   "year": 2021,
+   "ie": 24.8,
+   "peerMedian": 38.5
+  },
+  {
+   "year": 2022,
+   "ie": 19.9,
+   "peerMedian": 37.8
+  },
+  {
+   "year": 2023,
+   "ie": 20.2,
+   "peerMedian": 33
+  },
+  {
+   "year": 2024,
+   "ie": 19.7,
+   "peerMedian": 32.6
+  },
+  {
+   "year": 2025,
+   "ie": 21.9,
+   "peerMedian": 29.3
+  }
+ ],
+ "gap": {
+  "perYear": 73,
+  "industryPerYear": 18
+ },
+ "uniqueTrials": 30943,
+ "countryRecords": 44770,
+ "ireland": {
+  "recruitingNow": 230,
+  "quarters": {
+   "2026 Q1": {
+    "n": 23,
+    "industry": 14
+   },
+   "2026 Q2": {
+    "n": 14,
+    "industry": 8
+   },
+   "2024 Q2": {
+    "n": 27,
+    "industry": 18
+   },
+   "2025 Q2": {
+    "n": 31,
+    "industry": 24
+   },
+   "2023 Q1": {
+    "n": 35,
+    "industry": 26
+   },
+   "2023 Q4": {
+    "n": 27,
+    "industry": 16
+   },
+   "2024 Q1": {
+    "n": 31,
+    "industry": 14
+   },
+   "2024 Q4": {
+    "n": 28,
+    "industry": 15
+   },
+   "2023 Q2": {
+    "n": 27,
+    "industry": 13
+   },
+   "2023 Q3": {
+    "n": 21,
+    "industry": 9
+   },
+   "2025 Q3": {
+    "n": 26,
+    "industry": 15
+   },
+   "2025 Q1": {
+    "n": 25,
+    "industry": 16
+   },
+   "2026 Q3": {
+    "n": 5,
+    "industry": 4
+   },
+   "2025 Q4": {
+    "n": 37,
+    "industry": 20
+   },
+   "2026 Q4": {
+    "n": 1,
+    "industry": 0
+   },
+   "2024 Q3": {
+    "n": 21,
+    "industry": 11
+   }
+  },
+  "areas": [
+   {
+    "area": "Cancer",
+    "n": 154,
+    "industry": 104
+   },
+   {
+    "area": "Lungs and breathing",
+    "n": 74,
+    "industry": 59
+   },
+   {
+    "area": "Skin",
+    "n": 69,
+    "industry": 52
+   },
+   {
+    "area": "Brain and nerves",
+    "n": 65,
+    "industry": 33
+   },
+   {
+    "area": "Kidney, urinary and reproductive",
+    "n": 63,
+    "industry": 44
+   },
+   {
+    "area": "Heart and circulation",
+    "n": 59,
+    "industry": 36
+   },
+   {
+    "area": "Metabolism and diabetes",
+    "n": 52,
+    "industry": 31
+   },
+   {
+    "area": "Digestive system",
+    "n": 49,
+    "industry": 34
+   },
+   {
+    "area": "Blood",
+    "n": 48,
+    "industry": 35
+   },
+   {
+    "area": "Immune system",
+    "n": 38,
+    "industry": 29
+   }
+  ],
+  "hospitals": [
+   {
+    "site": "University Hospital Galway, Galway",
+    "n": 54
+   },
+   {
+    "site": "Cork University Hospital, Cork",
+    "n": 53
+   },
+   {
+    "site": "St James's Hospital, Dublin",
+    "n": 52
+   },
+   {
+    "site": "St. Vincent's University Hospital, Dublin",
+    "n": 49
+   },
+   {
+    "site": "Beaumont Hospital, Dublin",
+    "n": 43
+   },
+   {
+    "site": "Mater Misericordiae University Hospital, Dublin",
+    "n": 41
+   },
+   {
+    "site": "Atlantia Food Clinical Trials, Cork",
+    "n": 28
+   },
+   {
+    "site": "Tallaght University Hospital, Dublin",
+    "n": 26
+   },
+   {
+    "site": "University College Dublin, Dublin",
+    "n": 21
+   },
+   {
+    "site": "University Hospital Waterford, Waterford",
+    "n": 20
+   },
+   {
+    "site": "University Hospital Limerick, Limerick",
+    "n": 16
+   },
+   {
+    "site": "Mater Private Hospital, Dublin",
+    "n": 10
+   }
+  ],
+  "namedSiteShare": 86.4,
+  "sponsors": [
+   {
+    "sponsor": "University College Dublin",
+    "n": 34,
+    "industry": false
+   },
+   {
+    "sponsor": "Merck Sharp & Dohme LLC",
+    "n": 30,
+    "industry": true
+   },
+   {
+    "sponsor": "University College Cork",
+    "n": 28,
+    "industry": false
+   },
+   {
+    "sponsor": "Royal College of Surgeons, Ireland",
+    "n": 28,
+    "industry": false
+   },
+   {
+    "sponsor": "University of Dublin, Trinity College",
+    "n": 22,
+    "industry": false
+   },
+   {
+    "sponsor": "University of Limerick",
+    "n": 15,
+    "industry": false
+   },
+   {
+    "sponsor": "Novo Nordisk A/S",
+    "n": 10,
+    "industry": true
+   },
+   {
+    "sponsor": "Bristol-Myers Squibb",
+    "n": 10,
+    "industry": true
+   },
+   {
+    "sponsor": "AstraZeneca",
+    "n": 9,
+    "industry": true
+   },
+   {
+    "sponsor": "AbbVie",
+    "n": 9,
+    "industry": true
+   },
+   {
+    "sponsor": "Cancer Trials Ireland",
+    "n": 9,
+    "industry": false
+   },
+   {
+    "sponsor": "GlaxoSmithKline",
+    "n": 7,
+    "industry": true
+   }
+  ],
+  "whyStopped": {
+   "Sponsor business or programme decision": 29,
+   "Safety, lack of benefit or interim analysis": 32,
+   "Too few patients enrolled": 22,
+   "Covid-19 disruption": 6,
+   "Other or not stated": 6
+  },
+  "terminatedBase": 95,
+  "phaseMix": {
+   "Early phase (1 and 1/2)": 35,
+   "Phase 2": 58,
+   "Phase 3": 220,
+   "Phase 4": 8,
+   "Not phased (devices, procedures, behaviour)": 258
+  },
+  "windowStarts": 579
+ }
+}
